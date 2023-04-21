@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-image: #f2f2f2;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron"
+        style="background-image:url(https://images.unsplash.com/photo-1633578909448-bd43cc0c14c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);  background-size:cover; color: white;">
+        <div class="container text-center">
+            <h1>My Portfolio</h1>
+            <p>Blah lorem ipsum blam</p>
+        </div>
+    </div>
+    <div class="container-fluid bg-3 text-center">
+        <h3>Things that we have done</h3><br>
+        <div class="row">
+            <div class="col-sm-3">
+                <p>lorem ipsum something</p>
+                <img src="https://images.unsplash.com/photo-1680601377397-70e401d547d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                    class="img-responsive" style="width:100%; object-fit: cover;
+    height: calc(100vh - 56px);" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>lorem ipsum something</p>
+                <img src="https://images.unsplash.com/photo-1670722111236-a8b246ed70fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    class="img-responsive" style="width:100%; object-fit: cover;
+    height: calc(100vh - 56px);" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>lorem ipsum something</p>
+                <img src="https://images.unsplash.com/photo-1680593180856-33a8894e74d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+                    class="img-responsive" style="width:100%; object-fit: cover;
+    height: calc(100vh - 56px);" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>lorem ipsum something</p>
+                <img src="https://plus.unsplash.com/premium_photo-1679746246592-a0a1d99556a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    class="img-responsive" style="width:100%; object-fit: cover;
+    height: calc(100vh - 56px);" alt="Image">
+            </div>
+        </div>
+    </div><br>
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="col-sm-3">
+                <p>lorem ipsum something</p>
+                <img src="https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    class="img-responsive" style="width:100%; object-fit: cover;
+    height: calc(100vh - 56px);" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>lorem ipsum something</p>
+                <img src="https://images.unsplash.com/photo-1512058556646-c4da40fba323?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=709&q=80"
+                    class="img-responsive" style="width:100%; object-fit: cover;
+    height: calc(100vh - 56px);" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>lorem ipsum something</p>
+                <img src="https://images.unsplash.com/photo-1621515554656-3da68ba128b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=684&q=80"
+                    class="img-responsive" style="width:100%; object-fit: cover;
+    height: calc(100vh - 56px);" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>lorem ipsum something</p>
+                <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                    class="img-responsive" style="width:100%; object-fit: cover;
+    height: calc(100vh - 56px);" alt="Image">
+            </div>
+        </div>
+    </div><br><br>
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+</body>
+
+</html>
